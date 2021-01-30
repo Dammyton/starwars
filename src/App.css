@@ -1,0 +1,110 @@
+body {
+    margin: auto;
+    width: 100%;
+    justify-content: center;    
+    background: url('./background-images/benjamin-lyngso-GNj3QYAjKoc-unsplash.jpg');
+    overflow-x: hidden;
+    /* background-color: #0d2150; */
+}
+
+.bgimage{
+    background: url('./background-images/undraw_Traveling_re_weve.svg');
+    background-position: center;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size: COVER;
+}
+
+.bg-primary{
+    background: #0d2150 !important;
+}
+
+.bg-dark {
+    background-color: #000!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7277f9;
+    border-color: #7277f9;
+}
+
+.divider{
+    border: 2px solid #fff;
+}
+
+.divide{
+    border: 2px solid #7277f9;
+    width: 30px;
+}
+
+.icon_{
+    width: 50px;
+}
+
+.img.icon_ {
+    width: 45%;
+    border-radius: 50%;
+    border: 1px solid #7277f9;
+    padding-top: 10px;
+}
+
+.icons {
+    width: 50px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+table, td, th {
+    padding: .5rem;
+    border-color: #7277f9;
+    border-style: solid;
+    border-collapse: collapse;
+}
+.table-hover tbody tr:hover {
+    color: #4d89c5 !important;
+    background-color: rgba(0,0,0,.075);
+}
+
+#table {
+    width: 80%;
+}
+
+#character-table{
+    width: 95%;
+    margin-top: 10px;
+}
+
+#character-table-header {
+    font-family: 'moonhouse';
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    color: #7277f9;
+}
+
+#character-table-body {
+    font-family: 'moonhouse';
+    text-align: center;
+    color: white;
+}
+#loading-spinner-div {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #search-bar-div {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      flex-direction: column; 
+    }
+  }
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 3rem !important;
+    }
+}
