@@ -24,8 +24,8 @@ function StarshipTable(props) {
                             <td className="cell-name">{starship.name}</td>
                             <td className="cell-model">{starship.model}</td>
                             <td className="cell-manfc">{starship.manufacturer}</td>
-                            <td className="cell-cost">{new Number(starship.cost_in_credits).toLocaleString()}</td>
-                            <td className="cell-cargocpa">{new Number(starship.cargo_capacity).toLocaleString()}</td>
+                            <td className="cell-cost">{ Number(starship.cost_in_credits).toLocaleString()}</td>
+                            <td className="cell-cargocpa">{ Number(starship.cargo_capacity).toLocaleString()}</td>
                             <td className="cell-class">{starship.starship_class}</td>
                         </tr>
                     ))}

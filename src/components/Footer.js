@@ -16,19 +16,19 @@ function Footer() {
        <hr className="divider my-5"/>
         <img src={social} className="icon_ mb-5" alt="social" />
         <h3 className="mb-5">SOCIAL</h3>
-        <a href="#">
+        <a href="http://twitter.com">
           <img src={twitter} className="icons p-2 m-2" alt="twitter"/>
         </a>
-        <a href="#">
+        <a href="http://facebook.com">
           <img src={facebook} className="icons p-2 m-2" alt="faebook" />
         </a>
-        <a href="#">
+        <a href="http://github.com">
           <img src={github} className="icons p-2 m-2" alt="github" />
         </a>
-        <a href="#">
+        <a href="http://linkedin.com">
           <img src={linkedin} className="icons p-2 m-2" alt="linkedin" />
         </a>
-        <a href="#">
+        <a href="http://medium.com">
           <img src={medium} className="icons p-2 m-2" alt="github" />
         </a>
       </div>
