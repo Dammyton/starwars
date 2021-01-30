@@ -1,4 +1,4 @@
-# Star Wars API App
+# StarWars App
 The application was built with Reactjs and styled with React-Bootstrap
 
 
